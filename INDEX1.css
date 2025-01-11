@@ -1,4 +1,4 @@
-/* Global styles */
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f7f7f7;
@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* Navigation Bar */
+/
 .navibar {
     background-color: #333;
     padding: 10px 0;
@@ -39,12 +39,12 @@ body {
     color: #ffd700;
 }
 
-/* Main content area */
+
 .main {
-    padding-top: 80px; /* Added padding to prevent content from being hidden behind the navbar */
+    padding-top: 80px; 
 }
 
-/* Home Section */
+
 .info {
     text-align: center;
     padding: 50px;
@@ -68,7 +68,6 @@ body {
     line-height: 1.6;
 }
 
-/* About Me Section */
 .about-me {
     padding: 70px 5%;
     background: linear-gradient(135deg, rgba(255, 204, 0, 0.1), rgba(0, 112, 255, 0.1)), url('background-pattern.png');
@@ -177,7 +176,7 @@ body {
     color: #007bff;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
     .navibar ul li {
         display: block;
