@@ -1,0 +1,206 @@
+/* Global styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navibar {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navibar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navibar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navibar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.navibar ul li a:hover {
+    color: #ffd700;
+}
+
+/* Main content area */
+.main {
+    padding-top: 80px; /* Added padding to prevent content from being hidden behind the navbar */
+}
+
+/* Home Section */
+.info {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info h1 {
+    font-size: 2.5rem;
+    color: #2b2b2b;
+}
+
+.info h2 span {
+    color: #007bff;
+}
+
+.info p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* About Me Section */
+.about-me {
+    padding: 70px 5%;
+    background: linear-gradient(135deg, rgba(255, 204, 0, 0.1), rgba(0, 112, 255, 0.1)), url('background-pattern.png');
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    border-top: 4px solid #ffd700;
+    border-bottom: 4px solid #ffd700;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-me h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #2b2b2b;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.about-me .about-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.about-me a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.about-me a:hover {
+    color: #0056b3;
+}
+
+/* Work Section */
+.my-work {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.my-work h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.work-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.work-item h3 {
+    font-size: 1.8rem;
+    color: #2b2b2b;
+}
+
+.work-item a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.work-item a:hover {
+    color: #0056b3;
+}
+
+/* Social Icons */
+.icons {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.icons a {
+    margin: 0 10px;
+    font-size: 2rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.icons a:hover {
+    color: #007bff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navibar ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .about-me, .my-work {
+        padding: 50px 20px;
+    }
+
+    .info h1 {
+        font-size: 2rem;
+    }
+
+    .info h2 {
+        font-size: 1.8rem;
+    }
+
+    .work-item {
+        padding: 15px;
+    }
+
+    .about-me .about-content {
+        padding: 20px;
+    }
+}
